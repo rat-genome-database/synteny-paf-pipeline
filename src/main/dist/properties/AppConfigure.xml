@@ -1,0 +1,15 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="main" class="edu.mcw.rgd.SyntenyPafPipeline.Manager">
+        <property name="version" value="Transitive Ortholog Pipeline   -- build Oct 03, 2023" />
+		<property name="transitiveOrthologType" value="13"/>
+		<property name="transitiveOrthologPipelineId" value="333"/>
+		<property name="xrefDataSrc" value="Transitive Ortholog Pipeline" />
+		<property name="xrefDataSet" value="Transitive Ortholog Pipeline" />
+		<property name="dao" ref="dao" />
+	</bean>
+
+	<bean id="dao" class="edu.mcw.rgd.SyntenyPafPipeline.Dao" >
+		<property name="decisionDurationInMinForOrthologDeletion" value="20" />
+	</bean>
+</beans>
