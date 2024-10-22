@@ -47,6 +47,7 @@ public class Manager {
     public static void main(String[] args) throws Exception {
 
         LinkedHashMap<String, Integer> assemblies = new LinkedHashMap<String, Integer>();
+        assemblies.put("GRCr8",380);
         assemblies.put("mRatBN7.2",372);
         assemblies.put("Rnor_6.0",360);
         assemblies.put("Rnor_5.0",70);
@@ -60,10 +61,10 @@ public class Manager {
         assemblies.put("CanFam3.1",631);
         assemblies.put("Sscrofa11.1",911);
         assemblies.put("Sscrofa10.2",910);
-        assemblies.put("Chlorocebus_sabeus 1.1",1311);
+        assemblies.put("Chlorocebus_sabeus1.1",1311);
         assemblies.put("Vero_WHO_p1.0",1313);
         assemblies.put("Mhudiblu_PPA_v0",513);
-        assemblies.put("PanPan1.1",511);
+        assemblies.put("panpan1.1",511);
         assemblies.put("HetGla_female_1.0",1410);
         assemblies.put("ChiLan1.0",44);
         assemblies.put("SpeTri2.0",720);
@@ -157,7 +158,9 @@ public class Manager {
             return;
         }
 
-        FileWriter fw = new FileWriter(new File(outputDirectory + "/" + assembly1 + "-" + assembly2 +".paf"));
+        String track = assembly1 + " (" + SpeciesType.getCommonName(MapManager.getInstance().getMap(mapKey1).getSpeciesTypeKey()) + ") - " + assembly2 + " (" +  SpeciesType.getCommonName(MapManager.getInstance().getMap(mapKey2).getSpeciesTypeKey()) + ")";
+
+        FileWriter fw = new FileWriter(new File(outputDirectory + "/" + track +".paf"));
 
         for (SyntenicRegion sr: regions) {
 

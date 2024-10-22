@@ -1,2 +1,2 @@
-# synteny-paf-pipeline
-Generate synteny paf files for jbrowse2
+# transitive-ortholog-pipeline
+Generate transitive orthologs for all species based on HUMAN orthologs.
