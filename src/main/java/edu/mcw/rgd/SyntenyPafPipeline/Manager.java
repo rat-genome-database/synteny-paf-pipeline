@@ -183,7 +183,6 @@ public class Manager {
             row += residueMatches + "\t";
             row += residueMatches + "\t";
             row += "255";
-            System.out.println(row);
 
             fw.write(row + "\n");
 
