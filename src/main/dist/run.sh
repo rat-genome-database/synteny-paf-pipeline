@@ -16,4 +16,4 @@ java -Dspring.config=$APPDIR/../properties/default_db2.xml \
     -Dlog4j.configurationFile=file://$APPDIR/properties/log4j2.xml \
     -jar lib/$APPNAME.jar "${APPDIR}/out" 2>&1
 
-scp "${APPDIR}/out/*" rgdpub@pipelines.rgd.mcw.edu:/data/data/jbrowse2/paf/
+#scp "${APPDIR}/out/*" rgdpub@pipelines.rgd.mcw.edu:/data/data/jbrowse2/paf/
