@@ -59,6 +59,9 @@ public class Manager {
         assemblies.put("GRCm38",35);
         assemblies.put("MGSCv37",18);
         assemblies.put("CanFam3.1",631);
+        assemblies.put("UU_Cfam_GSD_1.0",637);
+        assemblies.put("Dog10K_Boxer_Tasha",633);
+        assemblies.put("ROS_Cfam_1.0",634);
         assemblies.put("Sscrofa11.1",911);
         assemblies.put("Sscrofa10.2",910);
         assemblies.put("Chlorocebus_sabeus1.1",1311);
