@@ -1,0 +1,3 @@
+Jun 10, 2026
+  upgraded dependencies and rgdcore; removed dead transitive-ortholog code;
+  fixed PAF output to conform to the PAF specification
