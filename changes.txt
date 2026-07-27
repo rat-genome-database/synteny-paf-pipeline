@@ -1,3 +1,6 @@
+Jul 27, 2026
+  dropped stray runAll.sh (belonged to transitive-ortholog-pipeline); updated dependencies
+
 Jun 10, 2026
   upgraded dependencies and rgdcore; removed dead transitive-ortholog code;
   fixed PAF output to conform to the PAF specification

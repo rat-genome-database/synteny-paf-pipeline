@@ -1,6 +1,6 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
 <beans>
 	<bean id="main" class="edu.mcw.rgd.SyntenyPafPipeline.Manager">
-        <property name="version" value="synteny-paf-pipeline -- build Jun 10, 2026" />
+        <property name="version" value="synteny-paf-pipeline -- build Jul 27, 2026" />
 	</bean>
 </beans>
