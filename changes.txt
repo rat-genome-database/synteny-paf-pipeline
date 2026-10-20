@@ -1,3 +1,6 @@
+Oct 20, 2026
+  migrated to postgres; updated dependencies
+
 Jul 27, 2026
   run.sh: publish PAF files (scp) only on the production server (REED), so dev and main share identical code
   dropped stray runAll.sh (belonged to transitive-ortholog-pipeline); updated dependencies
