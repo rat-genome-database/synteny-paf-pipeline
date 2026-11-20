@@ -1,3 +1,6 @@
+Nov 20, 2026
+  run.sh: fixed quoted globs (out/ was never cleaned, PAF files were never published); publish only on success; updated dependencies
+
 Oct 20, 2026
   migrated to postgres; updated dependencies
 
